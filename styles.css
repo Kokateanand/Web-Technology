@@ -1,0 +1,79 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Set the background to black */
+    color: #f4f4f4; /* Light text for contrast */
+    margin: 0;
+    /* padding: 25px; */
+
+   
+}
+
+span a {
+    margin: 5px;
+}
+
+header {
+    background-color: #333; /* Dark grey for the header */
+    color: #fff; /* White text for the header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #4CAF50; /* Add a slight accent */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.container {
+    padding: 20px;
+}
+
+h2 {
+    color: #f4f4f4; /* Light color for section headings */
+    border-bottom: 2px solid #4CAF50; /* Accent underlines */
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.student-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.student-list li {
+    background-color: #1c1c1c; /* Dark background for student items */
+    border: 1px solid #444; /* Subtle border for definition */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.student-list li h3 {
+    margin: 0;
+    color: #4CAF50; /* Accent color for names */
+}
+
+.student-list li p {
+    margin: 5px 0;
+    color: #ccc; /* Slightly lighter text for descriptions */
+}
+
+.student-list li a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #fff; /* White text for buttons */
+    background-color: #4CAF50; /* Accent color for buttons */
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.student-list li a:hover {
+    background-color: #45a049; /* Slightly lighter green on hover */
+}
